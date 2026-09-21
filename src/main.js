@@ -32,6 +32,18 @@ const people = [
   {
     user: 'DANITZA',
     message: 'Llegó la primavera con flores al pasar, que cada amarillo te haga sonreír y soñar. 💛🌼'
+  },
+  {
+    user: 'XIOMI',
+    message: 'Llegó la primavera con su dulce resplandor, que las flores amarillas llenen tu día de color. 💛🌻'
+  },
+  {
+    user: 'SABRINA',
+    message: 'Florece la primavera con alegría y emoción, que el amarillo de las flores florezca en tu corazón. 🌼💛'
+  },
+  {
+    user: 'MILAGROS',
+    message: 'Llegó la primavera con flores y encanto, que el amarillo te regale sonrisas y alegría a diario. 🌻✨'
   }
 ];
 
