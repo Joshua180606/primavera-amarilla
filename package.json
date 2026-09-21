@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "node build-assets.mjs",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "latest"
+    "vite": "latest",
+    "vite-plugin-singlefile": "^2.3.3"
   }
 }

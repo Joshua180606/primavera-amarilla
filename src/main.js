@@ -35,16 +35,18 @@ const people = [
   }
 ];
 
+import { cancion, sunflower, pvzDance, pvz, happyDance } from './embeddedAssets.js';
+
 const app = document.querySelector('#app');
-const audio = new Audio('/assets/cancion.mpeg');
+const audio = new Audio(cancion);
 audio.loop = true;
 audio.volume = 0.48;
 
 const sunflowerGifs = [
-  { src: '/assets/sunflower.gif', alt: 'Girasol floreciendo' },
-  { src: '/assets/sunflower-pvz-dance.gif', alt: 'Girasol bailando' },
-  { src: '/assets/sunflower-sunflower-plants-vs-zombies.gif', alt: 'Girasol sonriente' },
-  { src: '/assets/sunflower-happy-dance.gif', alt: 'Girasol feliz' }
+  { src: sunflower, alt: 'Girasol floreciendo' },
+  { src: pvzDance, alt: 'Girasol bailando' },
+  { src: pvz, alt: 'Girasol sonriente' },
+  { src: happyDance, alt: 'Girasol feliz' }
 ];
 
 function envelopeTemplate(person, index) {
